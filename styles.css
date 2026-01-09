@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header design starts here*/
+
+/* Nav design starts here */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 120px;
+  background-color: #ffffff;
+}
+
+.nav .menu {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 32px;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000000;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.menu a:hover {
+  background-color: #f95555;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn {
+  background-color: #469165;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #f95555;
+}
+.btn3:hover {
+  background-color: #f95555;
+  
+}
+
+/* nav desing ends here */
+
+/* Banner Design start here */
+.banner {
+  background-image: url("./assets/hero-bg.png");
+  background-size: cover;
+  height: 674px;
+  /* filter: blur(0.5px); */
+}
+
+.banner-content {
+  padding: 115.5px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+.banner-content .content-1 {
+  padding: 52px 295px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+  width: 229px;
+  height: 36px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 100px;
+  color: #469165;
+}
+
+#btn2 input[type="radio"] {
+  position: relative;
+  /* vertical-align: middle; */
+  border: 2px solid #469165;
+  accent-color: #469165;
+  filter: blur(1px);
+}
+#btn2 label {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+#line-1 {
+  font-size: 72px;
+  color: #ffffff;
+}
+
+#line-2 {
+  font-size: 72px;
+  color: #30b868;
+  margin-bottom: 16px;
+}
+
+.content-1 p {
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 24px;
+  /* margin-top: 16px; */
+}
+
+.content-2 {
+  display: flex;
+  gap: 16px;
+}
+
+.btn3 {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 12px 16px;
+  /* border: none; */
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
